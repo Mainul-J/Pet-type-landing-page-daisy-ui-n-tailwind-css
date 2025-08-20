@@ -17,7 +17,7 @@
          <!-- custom style -->
         <style type="text/tailwindcss">
       @theme {
-        --color-clifford: #da373d;
+        --color-card-bg: #F9DF8A;
         --color-btn-primary: #FFDC26;
         --color-ban-nav: #FFF9F4;
         --font-adlam:ADLaM Display, system-ui;
@@ -101,10 +101,91 @@
       <!-- main section -->
      <main>
         <!-- Browse By Categories / Products  Start-->
-         <section>
-          <h1>
-
+         <section class="lg:my-24 mt-96 w-10/12 lg:11/12 mx-auto">
+          <h1 class="text-4xl font-adlam font-normal">
+            Browse By Categories
           </h1>
+          <!-- card div -->
+           <div class="flex flex-row flex-wrap gap-11">
+            <!-- card - 1 -->
+            <div class="card bg-card-bg w-[200px] rounded-2xl">
+  <figure class="px-10 pt-10">
+    <img
+      src="./assests/dog-cartoon.png"
+      alt="dog"
+      class="rounded-full border bg-white p-10" />
+  </figure>
+  <div class="card-body items-center text-center">
+    <h2 class="card-title">Dog</h2>
+    <p>3 Items</p>
+  </div>
+            </div>
+           
+            <!-- card - 2 -->
+             <div class="card bg-card-bg w-[200px] rounded-2xl">
+  <figure class="px-10 pt-10">
+    <img
+      src="./assests/fish-cartoon.png"
+      alt="dog"
+      class="rounded-full border bg-white p-10" />
+  </figure>
+  <div class="card-body items-center text-center">
+    <h2 class="card-title">Fish</h2>
+    <p>4 Items</p>
+  </div>
+            </div>
+            <!-- card - 3 -->
+             <div class="card bg-card-bg w-[200px] rounded-2xl">
+  <figure class="px-10 pt-10">
+    <img
+      src="./assests/cat-cartoon.png"
+      alt="dog"
+      class="rounded-full border bg-white p-10" />
+  </figure>
+  <div class="card-body items-center text-center">
+    <h2 class="card-title">Cat</h2>
+    <p>20 Items</p>
+  </div>
+            </div>
+            <!-- card - 4 -->
+             <div class="card bg-card-bg w-[200px] rounded-2xl">
+  <figure class="px-10 pt-10">
+    <img
+      src="./assests/bird-cartoon.png"
+      alt="dog"
+      class="rounded-full border bg-white p-10" />
+  </figure>
+  <div class="card-body items-center text-center">
+    <h2 class="card-title">Bird</h2>
+    <p>10 Items</p>
+  </div>
+            </div>
+            <!-- card - 5 -->
+             <div class="card bg-card-bg w-[200px] rounded-2xl">
+  <figure class="px-10 pt-10">
+    <img
+      src="./assests/mouse-cartoon.png"     alt="dog"
+      class="rounded-full border bg-white p-10" />
+  </figure>
+  <div class="card-body items-center text-center">
+    <h2 class="card-title">Small Pet</h2>
+    <p>3 Items</p>
+  </div>
+            </div>
+            <!-- card - 6 -->
+             <div class="card bg-card-bg w-[200px] rounded-2xl">
+  <figure class="px-10 pt-10">
+    <img
+      src="./assests/rabbit-cartoon.png"
+      alt="dog"
+      class="rounded-full border bg-white p-10" />
+  </figure>
+  <div class="card-body items-center text-center">
+    <h2 class="card-title">Rabbit</h2>
+    <p>2 Items</p>
+  </div>
+            </div>
+           </div>
          </section>
 
      </main>
