@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse 4 Pets</title>
+    <!-- Font link  (ADLaM Display) & (Sora) -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <!-- cnd of daisy ui & tailwind css cdn-->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <!-- icon of font awesome  link-->
+         <script src="https://kit.fontawesome.com/ef4cd9f538.js" crossorigin="anonymous"></script>
+         <!-- custom style -->
+        <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+        --color-btn-primary: #FFDC26;
+        --color-ban-nav: #FFF9F4;
+        --font-adlam:ADLaM Display, system-ui;
+        --font-sora: Sora, sans-serif;
+      }
+    </style>   
+</head>
+<body>
+    <!-- header section -->
+     <header>
+      <!-- header nav ber div -->
+       <div class="bg-ban-nav">
+        <div class="w-10/12 lg:11/12 mx-auto">
+          <!--nav is start whit daisy ui component + tailwind css customize where is need-->
+            <div class="navbar ">
+  <div class="navbar-start">
+    <!-- <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+        <li><a>Item 1</a></li>
+        <li>
+          <a>Parent</a>
+          <ul class="p-2">
+            <li><a>Submenu 1</a></li>
+            <li><a>Submenu 2</a></li>
+          </ul>
+        </li>
+        <li><a>Item 3</a></li>
+      </ul>
+    </div> -->
+    <img class="mr-2" src="./assests/logo-header.png" alt="">
+    <a class="text-2xl font-sora hidden lg:inline">Browse<span class="text-[#FFDC26]">4</span>Pets</a>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1 font-sora">
+      <li><a>Find a Pet</a></li>
+      <li><a>Breeds</a></li>
+      <li><a>Contact Us</a></li>
+    </ul>
+  </div>
+  <div class="navbar-end space-x-5">
+    <!-- notification font awesome link -->
+     <i class="fa-regular fa-bell"></i>
+     <!-- search font awesome link -->
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <!-- button - login & Register -->
+    <a class="border-2 text-amber-300 border-yellow-400 font-sora px-5 py-2 mr-3 rounded-lg hidden md:inline-block hover:bg-gradient-to-r from-sky-600 to-purple-800 hover:text-green-200">Login</a>
+    <a class="bg-btn-primary font-sora px-5 py-2 mr-3 rounded-lg hidden md:inline-block hover:bg-gradient-to-r from-green-500 to-cyan-700 hover:text-white">Register</a>
+  </div>
+</div>
+        </div>
+
+       </div>
+     </header>
+     <!-- Banner section -->
+      <section class="w-10/12 lg:11/12 mx-auto">
+        <!-- img div of banner -->
+        <div class="relative top-72 lg:-top-0 md:top-44 lg:left-40">
+          <img src="./assests/cat-big.png" alt="" class="mx-auto">
+        </div>
+        <!-- text div of banner -->
+         <div class="absolute top-20 lg:top-36">
+          <h1 class="pr-2 font-adlam text-xl sm:text-2xl md:text-3xl lg:text-5xl pb-4 w-fit max-w-[90vw]">
+            Pamper Your Pet, <br />
+            Because They Deserve <br />the Bes
+          </h1>
+          <p class="font-sora text-gray-500 pb-5">
+            Discover a world of treats, toys, and essentials handpicked for
+            <br />
+            your furry friends. Shop now and make tails wag with joy!
+          </p>
+          <button class="bg-btn-primary py-1 px-5 rounded-lg font-sora">
+            Find a pet
+          </button>
+         </div>
+      </section>
+      <!-- main section -->
+     <main>
+        <!-- Browse By Categories / Products  Start-->
+         <section>
+          <h1>
+
+          </h1>
+         </section>
+
+     </main>
+</body>
+</html>
